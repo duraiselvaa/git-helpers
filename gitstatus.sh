@@ -1,9 +1,13 @@
 #!/bin/bash
 
 #
+## This script helps to check status of all git repositories under a directory
+#
+
+#
 # update the below variable
 # 
-GITDIR='/e/_GEOGREP/github'
+GITDIR='/e/mygithub/repos'
 
 
 for gitdir in `find $GITDIR -name .git`; 
